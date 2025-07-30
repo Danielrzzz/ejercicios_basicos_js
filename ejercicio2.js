@@ -31,5 +31,5 @@ const nave2 = {nombre: "Halcón Milenario", precioBase: 70000, precioFinal: 8000
 nave1.precioFinal = nave1.precioBase + precioBaseGlobal;
 nave2.precioFinal = nave2.precioBase + precioBaseGlobal;
 
-//console.log(`El precio final de la nave ${nave1.nombre} con el precio de ${nave1.precioFinal}  la nave ${nave2.nombre} con el precio de  ${nave2.precioFinal}`);
+console.log(`El precio final de la nave ${nave1.nombre} con el precio de ${nave1.precioFinal}  la nave ${nave2.nombre} con el precio de  ${nave2.precioFinal}`);
 
