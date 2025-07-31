@@ -6,7 +6,7 @@ function averageWord(list) {
         if(typeof list[i] === "string") {
             sumTotal = list[i].length + sumTotal;
         } else {
-            sumTotal = list[i].length + sumTotal;
+            sumTotal = list[i] + sumTotal;
         }
     }
     promedio = sumTotal / list.length;
