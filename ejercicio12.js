@@ -12,9 +12,8 @@ const duplicates = [
   'soda'
 ];
 function removeDuplicates(list) {
-    for (let i = 0;i < list.length;i++) {
         let repWord = list.filter((Item, index) => {
-            return list.indexOf(Item) !== index});
-    }
+            return list.indexOf(Item) === index});
+            return repWord;
 }
 console.log(removeDuplicates(duplicates));
