@@ -12,7 +12,7 @@ const words = [
   'code'
 ];
 function repeatCounter(list) {
-    let word = "";
+    let repWords = {};
     for(let i = 0;i < list.length; i++) {
         word = list[i];
         if () {
