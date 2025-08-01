@@ -15,9 +15,10 @@ function nameFinder(nameList, name) {
     let validate = false;
     for(let i = 0;i < nameList.length; i++){
         if (name === nameList[i]) {
+            console.log(nameList.indexOf(nameList[i]));
             return true;
         }
     }
     return false;
 }
-console.log(nameFinder(names, 'Bruce'));
+console.log(nameFinder(names, 'Marc'));
