@@ -14,10 +14,13 @@ const words = [
 function repeatCounter(list) {
     let repWords = {};
     for(let i = 0;i < list.length; i++) {
-        word = list[i];
-        if () {
-
+        let word = list[i];
+        if (repWords[word]) {
+            repWords[word] = repWords[word] + 1;
+        } else {
+            repWords[word] = 1;
         }
     }
+    return repWords;
 }
 console.log(repeatCounter(words));
