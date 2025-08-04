@@ -3,9 +3,6 @@ const placesToTravel = [{id: 5, name: 'Japan'}, {id: 11, name: 'Venecia'}, {id: 
 for(let i = 0; i < placesToTravel.length; i++) {
     let places = placesToTravel[i];
     if (places.id === 11 || places.id === 40) {
-        return i;
-    }
-    if (i !== -1){
         placesToTravel.splice(i, 1);
     }
 }
