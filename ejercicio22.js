@@ -9,10 +9,12 @@ const foodSchedule = [
   { name: "Pasta", isVegan: true },
 ];
 
+let i = 0;
+
 for(let food of foodSchedule) {
-    if(food.isVegan < fruits.length){
-        food.name = fruits;
-        food.isVegan === true;
+    if(!food.isVegan && i < fruits.length){
+        food.name = fruits[i];
+        food.isVegan = true;
         i++;
     }
 }
